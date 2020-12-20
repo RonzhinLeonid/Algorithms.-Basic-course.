@@ -75,13 +75,21 @@ namespace Les2Ex2
             { 
                 if (n % 2 == 0)
                 {
-                    var p = Pow_c(a, n / 2);
+                    double p = Pow_c(a, n / 2);
                     return p * p;
                 }
                 else return a * Pow_c(a, n - 1);
             }
             else if (n == 0) return 1;
-            else return 1 / (a * Pow_b(a, -n - 1));
+            else 
+            {
+                if (n % 2 == 0)
+                {
+                    double p = Pow_c(a, -n / 2);
+                    return 1/(p * p);
+                }
+                else return 1/(a * Pow_c(a, -n - 1));
+            }
         }
     }
 }
