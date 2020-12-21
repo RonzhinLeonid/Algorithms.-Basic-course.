@@ -46,7 +46,7 @@ namespace Les2Ex3
                     s += "*2";
                 }
                 if (temp < b) Covert(temp, b, s, ref count);
-                else if (temp == b) Console.WriteLine($"{++count}) {s} + = + {b}");
+                else if (temp == b) Console.WriteLine($"{++count}) {s} = {b}");
             }
         }
     }
