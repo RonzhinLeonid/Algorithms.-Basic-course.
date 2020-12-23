@@ -26,6 +26,17 @@ namespace Les2Ex3
             int count = 0;
             Covert(a, b, a.ToString(), ref count);
             Console.WriteLine($"Кол-во вариантов: {count}");
+
+            #region Дополнено с урока
+            int[] arr = new int[b + 1];
+            arr[a] = 1;
+            for (int i = a + 1; i <= b; i++)
+            {
+                arr[i] = i % 2 == 0 ? arr[i - 1] + arr[i / 2] : arr[i - 1];
+                Console.Write($"{arr[i]} ");
+            } 
+            #endregion
+
             Console.ReadKey();
         }
 
