@@ -17,30 +17,30 @@ namespace Les5Ex6
             Console.Write("\nВведите число для проверки принадлежности списку: ");
             int a = int.Parse(Console.ReadLine());
 
-            DoubleQueue<int> usersDeck = new DoubleQueue<int>();
+            DoubleQueue<int> myQueue = new DoubleQueue<int>();
             for (int i = 0; i < n; i++)
             {
-                if (i % 2 == 0) usersDeck.AddFirst(i);
-                else usersDeck.AddLast(i);
+                if (i % 2 == 0) myQueue.AddFirst(i);
+                else myQueue.AddLast(i);
             }
             Console.WriteLine();
-            foreach (int s in usersDeck)
+            foreach (int s in myQueue)
                 Console.Write(s + " ");
             Console.WriteLine();
-            Console.WriteLine($"Пустой список? {usersDeck.IsEmpty}");
-            Console.WriteLine($"Последний элемент: {usersDeck.Last}");
-            Console.WriteLine($"Первый элемент: {usersDeck.First}");
-            Console.WriteLine($"Кол-во элементов списка: {usersDeck.Count}");
-            Console.WriteLine($"Принадлежит ли {a} очереди: {usersDeck.Contains(a)}");
+            Console.WriteLine($"Пустой список? {myQueue.IsEmpty}");
+            Console.WriteLine($"Последний элемент: {myQueue.Last}");
+            Console.WriteLine($"Первый элемент: {myQueue.First}");
+            Console.WriteLine($"Кол-во элементов списка: {myQueue.Count}");
+            Console.WriteLine($"Принадлежит ли {a} очереди: {myQueue.Contains(a)}");
            
-            Console.WriteLine($"\nУдален: {usersDeck.DeleteFirst()}");
-            Console.WriteLine($"Удален: {usersDeck.DeleteLast()}");
+            Console.WriteLine($"\nУдален: {myQueue.DeleteFirst()}");
+            Console.WriteLine($"Удален: {myQueue.DeleteLast()}");
 
-            foreach (int s in usersDeck)
+            foreach (int s in myQueue)
                 Console.Write(s + " ");
 
-            usersDeck.Clear();
-            Console.WriteLine($"\nIsEmpty: {usersDeck.IsEmpty}");
+            myQueue.Clear();
+            Console.WriteLine($"\nIsEmpty: {myQueue.IsEmpty}");
             Console.ReadKey();
         }
     }
