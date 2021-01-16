@@ -104,7 +104,7 @@ namespace Les5Ex6
             return output;
         }
         /// <summary>
-        /// Кол-во элементов списка
+        /// Кол-во элементов в очереди
         /// </summary>
         public int Count { get { return count; } }
         /// <summary>
