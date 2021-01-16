@@ -14,6 +14,7 @@ namespace Les5Ex5
         //2. *С использованием односвязного списка.
         static void Main(string[] args)
         {
+            Console.Write("1. С использованием массива.");
             Console.Write("Введите размер очереди: ");
             int n = int.Parse(Console.ReadLine());
 
@@ -32,7 +33,37 @@ namespace Les5Ex5
                 Console.Write(myQueue.Dequeue() + " ");
 
             Console.WriteLine($"\nIsEmpty: {myQueue.IsEmpty}");
+
+            Console.Write("\n2. *С использованием односвязного списка.\n");
+            Console.Write("\nВведите число для проверки принадлежности списку: ");
+            int a = int.Parse(Console.ReadLine());
+
+            Queue<int> myQueueList = new Queue<int>();
+            for (int i = 0; i < n; i++)
+            {
+                myQueueList.Enqueue(i);
+            }
+            Console.WriteLine();
+            foreach (int s in myQueueList)
+                Console.Write(s + " ");
+            Console.WriteLine();
+            Console.WriteLine($"Пустой список? {myQueueList.IsEmpty}");
+            Console.WriteLine($"Последний элемент: {myQueueList.Last}");
+            Console.WriteLine($"Первый элемент: {myQueueList.First}");
+            Console.WriteLine($"Кол-во элементов списка: {myQueueList.Count}");
+            Console.WriteLine($"Принадлежит ли {a} очереди: {myQueueList.Contains(a)}");
+
+            Console.WriteLine($"\nУдален: {myQueueList.Dequeue()}");
+
+
+            foreach (int s in myQueueList)
+                Console.Write(s + " ");
+
+            myQueueList.Clear();
+            Console.WriteLine($"\nIsEmpty: {myQueueList.IsEmpty}");
             Console.ReadKey();
+
+
 
         }
     }

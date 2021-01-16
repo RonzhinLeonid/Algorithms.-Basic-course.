@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Les5Ex6
+namespace Les5Ex5
 {
-    public class DoubleList<T>
+    public class QueueList<T>
     {
-        public DoubleList(T data)
+        public QueueList(T data)
         {
             Data = data;
         }
         public T Data { get; set; }
-        public DoubleList<T> Previous { get; set; }
-        public DoubleList<T> Next { get; set; }
+        public QueueList<T> Next { get; set; }
     }
 }
