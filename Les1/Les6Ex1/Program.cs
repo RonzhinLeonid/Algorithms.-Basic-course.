@@ -28,7 +28,8 @@ namespace Les6Ex1
             int rez = 0;
             for (int i = 0; i < x.Length; i++)
             {
-                rez += (int)Convert.ToChar(x[i]);
+                int temp = (int)Convert.ToChar(x[i]);
+                rez += temp*2 + temp%2+3;
             }
             return rez;
         }
