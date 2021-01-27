@@ -1,0 +1,7 @@
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\bin\Debug\Les8Ex3.exe.config
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\bin\Debug\Les8Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\bin\Debug\Les8Ex3.pdb
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\obj\Debug\Les8Ex3.csprojAssemblyReference.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\obj\Debug\Les8Ex3.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\obj\Debug\Les8Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les8Ex3\obj\Debug\Les8Ex3.pdb
