@@ -1,0 +1,7 @@
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\bin\Debug\Les2Ex3.exe.config
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\bin\Debug\Les2Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\bin\Debug\Les2Ex3.pdb
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\obj\Debug\Les2Ex3.csprojAssemblyReference.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\obj\Debug\Les2Ex3.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\obj\Debug\Les2Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les2Ex3\obj\Debug\Les2Ex3.pdb
