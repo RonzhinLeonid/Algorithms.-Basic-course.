@@ -1,0 +1,10 @@
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\bin\Debug\Les7Ex3.exe.config
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\bin\Debug\Les7Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\bin\Debug\Les7Ex3.pdb
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\bin\Debug\Les7Ex4.dll
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\bin\Debug\Les7Ex4.pdb
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\obj\Debug\Les7Ex3.csprojAssemblyReference.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\obj\Debug\Les7Ex3.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\obj\Debug\Les7Ex3.csproj.CopyComplete
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\obj\Debug\Les7Ex3.exe
+E:\GeekBrains\Algorithms_Course.git\Les1\Les7Ex3\obj\Debug\Les7Ex3.pdb
